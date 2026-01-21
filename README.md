@@ -18,13 +18,12 @@
 <p align="center">
 <img src="./picture/Snipaste_2026-01-21_15-58-33.jpg" width="500"/><br>
 <em>模拟器配置</em><br><br>
-<p align="center">
-<img src="./picture/Snipaste_2026-01-21_15-53-40.jpg" width="260"/><br>
-<em>播放页示意</em>
-<p align="center">
-<img src="./picture/Snipaste_2026-01-21_16-05-14.jpg" width="260"/><br>
-<em>发现页面示意/em>
 </p>
+
+
+| 推荐页面 | 发现页面 | 动态页面 |
+| --- | --- | --- |
+| <img src="./picture/Snipaste_2026-01-21_15-53-40.jpg" width="200"/> | <img src="./picture/Snipaste_2026-01-21_16-05-14.jpg" width="200"/> | <img src="./picture/find.jpg" width="200"/> |
 
 ## 2. 运行前必做
 1. **IDE**：DevEco Studio 5.0.3 及以上  
