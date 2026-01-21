@@ -1584,3 +1584,140 @@ at D:\adavance\hwhm\ArkTS\entry\src\main\resources\base\media\logo.png
 [2026-01-21T15:52:05.430] [DEBUG] debug-file - watch worker: worker id should be larger than 0. Nothing will be sent to any worker thread.
 [2026-01-21T15:52:05.439] [DEBUG] debug-file - worker[18] exits with exit code 1.
 [2026-01-21T15:52:05.440] [DEBUG] debug-file - worker[17] exits with exit code 1.
+[2026-01-21T16:11:56.436] [DEBUG] debug-file - env: nodejsVersion=v18.20.1
+[2026-01-21T16:11:56.760] [DEBUG] debug-file - Hvigor init with startParameters:{
+  hvigorfileTypeCheck: false,
+  parallelExecution: true,
+  incrementalExecution: true,
+  printStackTrace: false,
+  daemon: false,
+  analyze: 0,
+  logLevel: Level { level: 20000, levelStr: 'INFO', colour: 'green' },
+  optimizationStrategy: 'memory',
+  hotCompile: undefined,
+  hotReloadBuild: undefined,
+  customizedParam: undefined
+}
+[2026-01-21T16:11:58.468] [DEBUG] debug-file - hvigorfile, require result:  { default: { system: [Function: appTasks], plugins: [] } }
+[2026-01-21T16:11:58.469] [DEBUG] debug-file - Starting plugin build process
+[2026-01-21T16:11:58.604] [DEBUG] debug-file - App plugin register hook start...
+[2026-01-21T16:11:58.607] [DEBUG] debug-file - Start initialize project's product build option map with build mode debug.
+[2026-01-21T16:11:58.610] [DEBUG] debug-file - Obtain build option for product 'default'in this build.
+[2026-01-21T16:11:58.624] [DEBUG] debug-file - Start recording SDK configuration permission data.
+[2026-01-21T16:11:58.659] [DEBUG] debug-file - Project task initialization takes 7 ms 
+[2026-01-21T16:11:58.666] [DEBUG] debug-file - failed to load cangjie to dynamically generate schemas: Error: Cannot find module '@ohos/cangjie-build-support/index'
+Require stack:
+- D:\sw\DevEco Studio\tools\hvigor\hvigor-ohos-plugin\src\plugin\hooks\cangjie-register.js
+- D:\sw\DevEco Studio\tools\hvigor\hvigor-ohos-plugin\src\plugin\strategy\stage-init-strategy.js
+- D:\sw\DevEco Studio\tools\hvigor\hvigor-ohos-plugin\src\plugin\builder\abstract-plugin-builder.js
+- D:\sw\DevEco Studio\tools\hvigor\hvigor-ohos-plugin\src\plugin\builder\app-plugin-builder.js
+- D:\sw\DevEco Studio\tools\hvigor\hvigor-ohos-plugin\src\plugin\factory\plugin-factory.js
+- D:\sw\DevEco Studio\tools\hvigor\hvigor-ohos-plugin\index.js
+- D:\adavance\hwhm\HMMusic\hvigorfile.ts
+- D:\sw\DevEco Studio\tools\hvigor\hvigor\src\base\internal\lifecycle\configuration.js
+- D:\sw\DevEco Studio\tools\hvigor\hvigor\src\base\boot\index.js
+- D:\sw\DevEco Studio\tools\hvigor\hvigor\src\cli\main\cli.js
+- D:\sw\DevEco Studio\tools\hvigor\hvigor\bin\hvigor.js
+[2026-01-21T16:11:58.679] [DEBUG] debug-file - Start initialize module-target build option map, moduleName=entry, buildMode=debug
+[2026-01-21T16:11:56.437] [DEBUG] debug-file - env: hvigor-config.json5 content = {
+  modelVersion: '5.1.1',
+  dependencies: {},
+  execution: {},
+  logging: {},
+  debugging: {},
+  nodeOptions: {}
+}
+[2026-01-21T16:11:58.686] [DEBUG] debug-file - start to load updatedOhPackageInfo to the disk
+[2026-01-21T16:11:58.685] [DEBUG] debug-file - project has submodules:entry
+[2026-01-21T16:11:58.697] [DEBUG] debug-file - Start to initialize dependency information.
+[2026-01-21T16:11:58.726] [DEBUG] debug-file - Create  resident worker with id: 0.
+[2026-01-21T16:11:56.763] [DEBUG] debug-file - Cache service initialization finished in 4 ms 
+[2026-01-21T16:11:58.468] [DEBUG] debug-file - hvigorfile, binding system plugins [Function: appTasks]
+[2026-01-21T16:11:58.469] [DEBUG] debug-file - App plugin prepare start...
+[2026-01-21T16:11:58.604] [DEBUG] debug-file - App plugin register hook end...
+[2026-01-21T16:11:58.607] [DEBUG] debug-file - Picking option from product 'default' with build mode 'debug'.
+[2026-01-21T16:11:58.617] [DEBUG] debug-file - No signingConfig found, initRemoteHspCache failed.
+[2026-01-21T16:11:58.650] [DEBUG] debug-file - Sdk init in 33 ms 
+[2026-01-21T16:11:58.659] [DEBUG] debug-file - hvigorfile, binding custom plugins []
+[2026-01-21T16:11:58.679] [DEBUG] debug-file - Target 'default' config initialized
+[2026-01-21T16:11:56.439] [DEBUG] debug-file - env: daemon=false
+[2026-01-21T16:11:58.690] [DEBUG] debug-file - load to the disk finished
+[2026-01-21T16:11:58.699] [DEBUG] debug-file - Module entry Collected Dependency: 
+[2026-01-21T16:11:58.729] [DEBUG] debug-file - Create  resident worker with id: 1.
+[2026-01-21T16:11:56.764] [DEBUG] debug-file - hvigorfile, resolving D:\adavance\hwhm\HMMusic\hvigorfile.ts
+[2026-01-21T16:11:58.469] [DEBUG] debug-file - App plugin prepare end...
+[2026-01-21T16:11:58.604] [DEBUG] debug-file - Plugin build process completed
+[2026-01-21T16:11:58.619] [DEBUG] debug-file - Local scan or download HarmonyOS sdk components toolchains,ets,js,native,previewer
+[2026-01-21T16:11:58.607] [DEBUG] debug-file - Product 'default' build option initialized
+[2026-01-21T16:11:58.659] [DEBUG] debug-file - hvigorfile, no custom plugins were found in D:\adavance\hwhm\HMMusic\hvigorfile.ts
+[2026-01-21T16:11:58.679] [DEBUG] debug-file - Target 'ohosTest' config initialized
+[2026-01-21T16:11:56.439] [DEBUG] debug-file - no-daemon, use the parent process.execArgv --max-old-space-size=8192,--max-semi-space-size=16,--expose-gc
+[2026-01-21T16:11:58.731] [DEBUG] debug-file - Current worker pool is stopped or closed.
+[2026-01-21T16:11:58.699] [DEBUG] debug-file - Module entry's total dependency: 0
+[2026-01-21T16:11:58.690] [DEBUG] debug-file - Start to initialize dependency information.
+[2026-01-21T16:11:58.469] [DEBUG] debug-file - App plugin creating...
+[2026-01-21T16:11:58.621] [DEBUG] debug-file - Local scan or download hmscore sdk components toolchains,ets,native
+[2026-01-21T16:11:58.607] [DEBUG] debug-file - End initialize project's product build option map with build mode 'debug'.
+[2026-01-21T16:11:58.659] [DEBUG] debug-file - hvigorfile, resolve finished D:\adavance\hwhm\HMMusic\hvigorfile.ts
+[2026-01-21T16:11:58.679] [DEBUG] debug-file - Module 'entry' target 'default' build option initialized
+[2026-01-21T16:11:58.731] [DEBUG] debug-file - Clear worker 0.
+[2026-01-21T16:11:58.704] [DEBUG] debug-file - Configuration phase cost:1 s 941 ms 
+[2026-01-21T16:11:58.659] [DEBUG] debug-file - hvigorfile, resolving D:\adavance\hwhm\HMMusic\entry\hvigorfile.ts
+[2026-01-21T16:11:58.679] [DEBUG] debug-file - Module 'entry' target 'ohosTest' build option initialized
+[2026-01-21T16:11:58.731] [DEBUG] debug-file - Worker 0 has been cleared.
+[2026-01-21T16:11:58.696] [DEBUG] debug-file - Module HMMusic Collected Dependency: 
+[2026-01-21T16:11:58.706] [DEBUG] debug-file - Configuration task cost before running: 1 s 953 ms 
+[2026-01-21T16:11:58.665] [DEBUG] debug-file - hvigorfile, require result:  { default: { system: [Function: hapTasks], plugins: [] } }
+[2026-01-21T16:11:58.679] [DEBUG] debug-file - End initialize module-target build option map, moduleName=entry
+[2026-01-21T16:11:58.731] [DEBUG] debug-file - Current idle worker size: 1.
+[2026-01-21T16:11:58.696] [DEBUG] debug-file - Module HMMusic's total dependency: 0
+[2026-01-21T16:11:58.707] [DEBUG] debug-file - Executing task :entry:init
+[2026-01-21T16:11:58.665] [DEBUG] debug-file - hvigorfile, binding system plugins [Function: hapTasks]
+[2026-01-21T16:11:58.679] [DEBUG] debug-file - Start initialize module-target build option map, moduleName=entry, buildMode=release
+[2026-01-21T16:11:58.707] [DEBUG] debug-file - entry : init cost memory 0.01410675048828125
+[2026-01-21T16:11:58.731] [DEBUG] debug-file - Current busy worker size: 0.
+[2026-01-21T16:11:58.665] [DEBUG] debug-file - Starting plugin build process
+[2026-01-21T16:11:58.679] [DEBUG] debug-file - Target 'default' config initialized
+[2026-01-21T16:11:58.707] [DEBUG] debug-file - runTaskFromQueue task cost before running: 1 s 954 ms 
+[2026-01-21T16:11:58.731] [DEBUG] debug-file - Clear worker 1.
+[2026-01-21T16:11:58.665] [DEBUG] debug-file - Hap plugin creating...
+[2026-01-21T16:11:58.680] [DEBUG] debug-file - Target 'ohosTest' config initialized
+[2026-01-21T16:11:58.708] [INFO] debug-file - Finished :entry:init... after 1 ms 
+[2026-01-21T16:11:58.731] [DEBUG] debug-file - Worker 1 has been cleared.
+[2026-01-21T16:11:58.680] [DEBUG] debug-file - Module 'entry' target 'default' build option initialized
+[2026-01-21T16:11:58.708] [DEBUG] debug-file - Executing task ::init
+[2026-01-21T16:11:58.731] [DEBUG] debug-file - Current idle worker size: 0.
+[2026-01-21T16:11:58.680] [DEBUG] debug-file - Module 'entry' target 'ohosTest' build option initialized
+[2026-01-21T16:11:58.708] [DEBUG] debug-file - HMMusic : init cost memory 0.0113677978515625
+[2026-01-21T16:11:58.731] [DEBUG] debug-file - Current busy worker size: 0.
+[2026-01-21T16:11:58.708] [DEBUG] debug-file - runTaskFromQueue task cost before running: 1 s 955 ms 
+[2026-01-21T16:11:58.680] [DEBUG] debug-file - End initialize module-target build option map, moduleName=entry
+[2026-01-21T16:11:58.732] [DEBUG] debug-file - hvigor build process will be closed.
+[2026-01-21T16:11:58.709] [INFO] debug-file - Finished ::init... after 1 ms 
+[2026-01-21T16:11:58.680] [DEBUG] debug-file - Start initialize module-target build option map, moduleName=entry, buildMode=debug
+[2026-01-21T16:11:58.735] [DEBUG] debug-file - worker[0] exits with exit code 0.
+[2026-01-21T16:11:58.718] [DEBUG] debug-file - Obtain build option for module 'entry' target 'default'in this build.
+[2026-01-21T16:11:58.680] [DEBUG] debug-file - Target 'default' config initialized
+[2026-01-21T16:11:58.737] [DEBUG] debug-file - worker[1] exits with exit code 0.
+[2026-01-21T16:11:58.718] [DEBUG] debug-file - Obtain build option for module 'entry' target 'ohosTest'in this build.
+[2026-01-21T16:11:58.680] [DEBUG] debug-file - Target 'ohosTest' config initialized
+[2026-01-21T16:11:58.738] [DEBUG] debug-file - Current worker pool is terminated.
+[2026-01-21T16:11:58.724] [DEBUG] debug-file - Since there is no instance or instance is terminated, create a new worker pool.
+[2026-01-21T16:11:58.680] [DEBUG] debug-file - Module 'entry' target 'default' build option initialized
+[2026-01-21T16:11:58.725] [DEBUG] debug-file - Worker pool is initialized with config:  {
+  minPoolNum: 2,
+  maxPoolNum: undefined,
+  maxCoreSize: undefined,
+  cacheCapacity: undefined,
+  cacheTtl: undefined
+}
+[2026-01-21T16:11:58.680] [DEBUG] debug-file - Module 'entry' target 'ohosTest' build option initialized
+[2026-01-21T16:11:58.680] [DEBUG] debug-file - End initialize module-target build option map, moduleName=entry
+[2026-01-21T16:11:58.680] [DEBUG] debug-file - Obtain build option for module 'entry' target 'default'in this build.
+[2026-01-21T16:11:58.684] [DEBUG] debug-file - Module entry task initialization takes 3 ms 
+[2026-01-21T16:11:58.684] [DEBUG] debug-file - Hap plugin register hook start...
+[2026-01-21T16:11:58.684] [DEBUG] debug-file - Hap plugin register hook end...
+[2026-01-21T16:11:58.684] [DEBUG] debug-file - Plugin build process completed
+[2026-01-21T16:11:58.684] [DEBUG] debug-file - hvigorfile, binding custom plugins []
+[2026-01-21T16:11:58.684] [DEBUG] debug-file - hvigorfile, no custom plugins were found in D:\adavance\hwhm\HMMusic\entry\hvigorfile.ts
+[2026-01-21T16:11:58.684] [DEBUG] debug-file - hvigorfile, resolve finished D:\adavance\hwhm\HMMusic\entry\hvigorfile.ts

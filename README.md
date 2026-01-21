@@ -35,7 +35,7 @@
 
 
 
-## 3. 快速开始
+## 3. 快速开始 
 ```bash
 
 git clone https://github.com/nyzhhd/HMMusic.git
