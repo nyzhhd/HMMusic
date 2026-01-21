@@ -25,6 +25,11 @@
 | --- | --- | --- |
 | <img src="./picture/Snipaste_2026-01-21_15-53-40.jpg" width="200"/> | <img src="./picture/Snipaste_2026-01-21_16-05-14.jpg" width="200"/> | <img src="./picture/find.jpg" width="200"/> |
 
+
+| 播放页面                                        | 播放页面                                         | 歌单页面                                         |
+|---------------------------------------------|----------------------------------------------|----------------------------------------------|
+| <img src="./picture/play.jpg" width="200"/> | <img src="./picture/play2.jpg" width="200"/> | <img src="./picture/play3.jpg" width="200"/> |
+
 ## 2. 运行前必做
 1. **IDE**：DevEco Studio 5.0.3 及以上  
 2. **SDK**：OpenHarmony API ≥ 12（本次使用 6.0.2+）  

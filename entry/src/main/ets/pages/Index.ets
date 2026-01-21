@@ -5,6 +5,7 @@ import { AppStorageV2 } from '@kit.ArkUI'
 struct Index {
   // 控制页面跳转的对象需要与子页面中的保持一致
   // pathStack: NavPathStack = new NavPathStack();
+
   // !表示非空断言
   pathStack: NavPathStack = AppStorageV2.connect(NavPathStack, 'navStack', () => new NavPathStack())!
 
