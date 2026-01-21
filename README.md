@@ -37,6 +37,7 @@
 
 ## 3. 快速开始
 ```bash
+
 git clone https://github.com/nyzhhd/HMMusic.git
 cd HMMusic
 # 用 DevEco 打开根目录，等待 Sync 完成
