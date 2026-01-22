@@ -134,9 +134,5 @@ hvigorw lint
 
 ## 9. 许可证
 MIT © 2026 HMMusic Contributors
-```
 
-使用说明  
-1. 把上面整段复制到 `README.md` 即可生效。  
-2. 如果图片路径或名称不同，只需批量替换 `./picture/` 路径。  
-3. 想再“炫一点”，可在最顶部加一段 15 s 的 GIF 演示（`<img src="xxx.gif" width="300"/>`），替换掉静态截图。
+
